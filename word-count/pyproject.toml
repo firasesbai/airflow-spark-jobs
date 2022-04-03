@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "word-count"
+name = "data_transformations"
 version = "0.1.0"
 description = ""
 authors = ["firasesbai <firasesbai@gmail.com>"]
