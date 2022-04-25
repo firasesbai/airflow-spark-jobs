@@ -29,3 +29,9 @@ This Setup was tested on Ubuntu 20.04.
   ``` docker-compose up airflow-init ```
   
 For more information check Airflow's [documentation](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html). 
+
+## Start Services
+
+You can start all the services by running ```docker-compose up -d```
+
+Access the Airflow web interface at: http://localhost:8080. The default account has the login *airflow* and the password *airflow*.
