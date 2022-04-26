@@ -35,3 +35,8 @@ For more information check Airflow's [documentation](https://airflow.apache.org/
 You can start all the services by running ```docker-compose up -d```
 
 Access the Airflow web interface at: http://localhost:8080. The default account has the login *airflow* and the password *airflow*.
+
+## Create new Spark Connection
+
+Go to Airflow web interface under *Admin -> Connection -> Add new connection* and add a new Spark connection like shown below: 
+![](spark-connection.png)
