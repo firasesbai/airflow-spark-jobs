@@ -40,3 +40,10 @@ Access the Airflow web interface at: http://localhost:8080. The default account 
 
 Go to Airflow web interface under *Admin -> Connection -> Add new connection* and add a new Spark connection like shown below: 
 ![](images/spark-connection.png)
+
+## Trigger *spark_word_count* DAG
+
+Go to Airflow web interface under *DAGS*. 
+
+Search for the spark_word_count DAG. You can use the tag **spark** for this. You can now trigger it like shown below:
+![](images/spark-dag.png)
